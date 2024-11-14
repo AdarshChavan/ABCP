@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T16:13:21 IST" name="Suite" finished-at="2024-11-13T16:13:38 IST" duration-ms="17602">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T16:13:21 IST" name="Test" finished-at="2024-11-13T16:13:38 IST" duration-ms="17602">
+      <class name="ABCP_TestClass.TestClass_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:ABCP_TestClass.TestClass_Login@36d585c]" started-at="2024-11-13T16:13:13 IST" name="setup" finished-at="2024-11-13T16:13:21 IST" duration-ms="7615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="PageObjects()[pri:0, instance:ABCP_TestClass.TestClass_Login@36d585c]" started-at="2024-11-13T16:13:21 IST" name="PageObjects" finished-at="2024-11-13T16:13:21 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageObjects -->
+        <test-method signature="Login_With_Valid_Credentials()[pri:0, instance:ABCP_TestClass.TestClass_Login@36d585c]" started-at="2024-11-13T16:13:21 IST" name="Login_With_Valid_Credentials" finished-at="2024-11-13T16:13:26 IST" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Valid_Credentials -->
+      </class> <!-- ABCP_TestClass.TestClass_Login -->
+      <class name="ABCP_TestClass.TestClass_ChannelPartner">
+        <test-method is-config="true" signature="PageObjects()[pri:0, instance:ABCP_TestClass.TestClass_ChannelPartner@1329eff]" started-at="2024-11-13T16:13:26 IST" name="PageObjects" finished-at="2024-11-13T16:13:26 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageObjects -->
+        <test-method signature="Click_On_the_ChannelPartner()[pri:1, instance:ABCP_TestClass.TestClass_ChannelPartner@1329eff]" started-at="2024-11-13T16:13:26 IST" name="Click_On_the_ChannelPartner" finished-at="2024-11-13T16:13:26 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_the_ChannelPartner -->
+        <test-method signature="Find_ChannelPartnerName_and_Click()[pri:2, instance:ABCP_TestClass.TestClass_ChannelPartner@1329eff]" started-at="2024-11-13T16:13:26 IST" name="Find_ChannelPartnerName_and_Click" finished-at="2024-11-13T16:13:28 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Find_ChannelPartnerName_and_Click -->
+        <test-method signature="click_On_the_EditChannelPartner_Button()[pri:3, instance:ABCP_TestClass.TestClass_ChannelPartner@1329eff]" started-at="2024-11-13T16:13:28 IST" name="click_On_the_EditChannelPartner_Button" finished-at="2024-11-13T16:13:28 IST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_On_the_EditChannelPartner_Button -->
+        <test-method signature="Edit_CompanyName()[pri:4, instance:ABCP_TestClass.TestClass_ChannelPartner@1329eff]" started-at="2024-11-13T16:13:28 IST" name="Edit_CompanyName" finished-at="2024-11-13T16:13:38 IST" duration-ms="10379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_CompanyName -->
+      </class> <!-- ABCP_TestClass.TestClass_ChannelPartner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

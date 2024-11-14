@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ABCP_TestClass.TestClass_Projects">
+        <methods>
+          <include name="select_Sales_Kit"/>
+          <include name="ProjectType_Residential"/>
+          <include name="Add_Project"/>
+          <include name="PageObjects"/>
+          <include name="Longitude"/>
+          <include name="Space_Type_1BHK"/>
+          <include name="Kids_Amenities"/>
+          <include name="setup"/>
+          <include name="Locality"/>
+          <include name="Select_Contry"/>
+          <include name="ProjectType_Commercial"/>
+          <include name="Amenities"/>
+          <include name="Select_Area_Type"/>
+          <include name="Open_Project_Tab"/>
+          <include name="select_Cover_Image"/>
+          <include name="Space_Type_2BHK"/>
+          <include name="Space_Type_3BHK"/>
+          <include name="Latitude"/>
+        </methods>
+      </class> <!-- ABCP_TestClass.TestClass_Projects -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
